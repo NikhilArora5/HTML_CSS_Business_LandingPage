@@ -20,7 +20,7 @@ It took me 3.5 Hours to design this Business Landing using Html and Css.
 
 Please check the Live Demo of the Designed Landing Page using the Below Link:-)
 
-[Live-Demo]("https://effortless-kleicha-23579c.netlify.app/")
+[Live-Demo](https://effortless-kleicha-23579c.netlify.app/)
 
 ## Designed By Nikhil Arora 
-### Visit ![I-write-code](/my%20output/codericon-removebg-preview%20(1).png) [Nikhil's Portfolio]("https://nikhilarora-protfolio.netlify.app/")
+### Visit ![I-write-code](/my%20output/codericon-removebg-preview%20(1).png) [Nikhil's Portfolio](https://nikhilarora-protfolio.netlify.app/)
