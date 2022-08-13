@@ -103,6 +103,7 @@ html{
 .div-1-content{
     color: #fff;
     opacity: .8;
+    width:50%;
 }
 
 .div-1-form{
@@ -606,7 +607,9 @@ general:div-heading
 
 @media screen and (max-width:1300px) {
 
-    
+.div-1-content{
+    width: 60%;
+}  
     
 .div-1-img{
     width: 50%;
@@ -645,7 +648,8 @@ general:div-heading
 
 @media screen and (max-width:1060px){
 
-    
+ 
+   
 .div-1-form{
     background-color: #fff;
    
@@ -693,7 +697,7 @@ general:div-heading
 .div-1-content{
     color: #fff;
     opacity: .8;
-    width: 100%;
+    width: 80%;
 }
 
 .nav-list{
@@ -802,6 +806,10 @@ general:div-heading
         padding: 0 0 70px 0;
     }
 
+    .div-1-content{
+       
+        width: 95%;
+    }
 
     .div-1-img{
 
