@@ -15,8 +15,13 @@ html{
     background-color: #636c79;
     justify-content: space-between;
     align-items: center;
-    height: 15vh;
+    height:100px;
     padding: 0 20px;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+    /* width: 100vw; */
+    /* margin-bottom: 250px; */
 
 
 }
