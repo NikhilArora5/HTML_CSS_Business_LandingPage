@@ -1,5 +1,5 @@
 # Business Landing Page
-A Business Landing Page designed using pure Html and Css
+A Law Home Page designed using pure Html and Css.
 
 ## Concepts and Learnings
 
@@ -10,17 +10,19 @@ A Business Landing Page designed using pure Html and Css
 - Background color bifurcation
 
 ## Landing Page Snapshot
-![Snapshot](/my%20output/Project-12.jpeg)
+![Snapshot](/Outputs/)
 
 ## Time Taken
 
-It took me 3.5 Hours to design this Business Landing using Html and Css.
+It took me 2.5 Hours to design this Law Home Page using Html and Css.
 
 ## Live
 
 Please check the Live Demo of the Designed Landing Page using the Below Link:-)
 
-[Live-Demo](https://effortless-kleicha-23579c.netlify.app/)
+![lIVE-dEMO](https://img.shields.io/badge/Live_Demo-<COLOR>)
+
+[Live-Demo](https://exquisite-bienenstitch-d09f66.netlify.app/)
 
 ## Designed By Nikhil Arora 
-### Visit ![I-write-code](/my%20output/codericon-removebg-preview%20(1).png) [Nikhil's Portfolio](https://nikhilarora-protfolio.netlify.app/)
+### Visit ![I-write-code](Outputs/codericon-removebg-preview%20(1).png) [Nikhil's Portfolio](https://nikhilarora-protfolio.netlify.app/)
