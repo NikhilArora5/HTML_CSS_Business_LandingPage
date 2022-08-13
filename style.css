@@ -896,6 +896,18 @@ margin-bottom: 15px;
 }
 
 
+.footer-icons{
+    margin: 10px 10px;
+    font-size: 10px;
+}
+
+.social-icon{
+    margin: 2px;
+    font-size: 12px;
+}
+.footer-logo{
+    width: 30%;
+}
 
 }
 
