@@ -23,12 +23,37 @@
 </head>
 <body>
 <!-- NAV SECTION -->
+<div id="navigation-cp">
 
-    <nav class="navbar">
+
+
+    <div onclick="onClickMenu()" id="cp-menu">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+    </div>
+    <ul class="m-cp-nav" id="nav-cp">
+        <a href="#home-id">Home</a>
+        <a href="#about-id">About us</a>
+        <a href="#page-id">Pages</a>
+        <a href="#agent-id">Agent</a>
+        <a href="#blog-id">Blogs</a>
+        <a href="#contact-id">subscribe</a>
+        <div class="cp-btns">
+            <!-- <a href="#">Log in</a> -->
+            <a href="#">Lets Talk</a>
+
+        </div>
+        
+    </ul>
+    
+</div>
+
+    <nav class="navbar" id="home-id">
 
         <img class="nav-logo" src="/assets/white-logo.png" alt="">
         <ul class="nav-list">
-            <li class="nav-item">Home</li>
+            <li class="nav-item" href="#home-id">Home</li>
             <li class="nav-item">About Us</li>
             <li class="nav-item">Pages</li>
             <li class="nav-item">Agent</li>
@@ -40,7 +65,7 @@
 
 
 <!-- INTRO SECTION DIV-1 -->
-    <div class="div-1">
+    <div class="div-1" id="about-id">
         <img class="div-1-img" src="/assets/pexels-fauxels-3183197.jpg" alt="">
     
         <div class="div-1-right">
@@ -108,7 +133,7 @@
 
 <!-- DIV-3-MID SECTION -->
 
-<div class="mid-section">
+<div class="mid-section" >
     <h1 class="mid-section-heading div-heading">We have made your care easy for you</h1>
 
     <div class="mid-div mid-1">
@@ -161,7 +186,7 @@
 
 <!-- TEAM SECTION -->
 
-<div class="team-section">
+<div class="team-section" id="agent-id">
     <div class="team-title-cont">
         <h1 class="div-heading">Meets Our great Creative Teams</h1>
         <p class="div-content">Our jorney began with a simple idea make a simple
@@ -217,7 +242,7 @@
 
 <!-- Footer Section -->
 
-<div class="footer">
+<div class="footer" id="contact-id">
     <div class="footer-icons">
         <img class="footer-logo" src="/assets/white-logo.png" alt="">
         <div class="social-icons">
@@ -285,7 +310,9 @@
     </div>
 </div>
 
-
+<div class="my-contact">
+    <h6 class="designed-by">Designed by <a  target="_blank" href="https://www.linkedin.com/in/nikhilarora6541b91a4/">Nikhil Arora</a></h6> </div>
+<script src="/script.js"></script>
 
 
 

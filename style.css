@@ -4,6 +4,9 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 .navbar{
 
@@ -227,7 +230,7 @@ body{
 }
 
 .mid-div-heading{
-    width: 70%;
+    width: 55%;
     margin-bottom: 10px;
 }
 
@@ -359,8 +362,213 @@ body{
 }
 
 
+/* NAV _COLLAPSE */
 
 
+/* COLLAPSE NAV STYLING STARTS */
+
+#navigation-cp{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    
+
+}
+
+#cp-menu{
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    padding-top: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    background-color:darkgray;
+    display: block;
+    border-radius: 5px;
+
+    transition: 0.3s ease;
+
+}
+
+#bar1{
+
+    transform: translateY(-4px);
+}
+
+
+#bar3{
+
+    transform: translateY(4px);
+}
+
+
+
+
+.m-cp-nav{
+ 
+    margin: 0px;
+    transition: 1s ease;
+    display: none;
+    
+    
+
+   
+}
+
+.m-cp-nav a{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.m-cp-nav a:hover{
+
+   /* border: 1px solid #fff; */
+}
+
+.m-cp-nav a{
+    padding: 16px 0px;
+    list-style: none;
+    color: #fff;
+}
+
+
+.icon{
+
+    
+}
+
+
+.icon .bar{
+    background-color:darkgray;
+    
+    display: block;
+}
+
+.icon #bar1{
+    transform: translateY(4px) rotate(-45deg);
+}
+
+
+
+.icon #bar3{
+    transform: translateY(-6px) rotate(45deg);
+}
+
+
+.icon #bar2{
+   opacity: 0;
+}
+
+
+
+/*  onclick bg changes of nav*/
+.change{
+    display: flex;
+    background-color: #636c79;
+    
+    height: 100vh;
+  
+    margin: 0px;
+    
+    padding-top: 100px;
+    position: fixed;
+    font-size: 20px;
+    top: 0px;
+    z-index: 1;
+    width:30%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.cp-btns{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    
+}
+
+.cp-btns a:nth-of-type(1){
+    background-color: #e9edff;
+    color: #636c79;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+@media screen and (min-width:1060px){
+
+    
+#cp-menu{
+    display: none;
+}
+
+#nav-cp{
+    display: none;
+}
+    
+.change{
+display: none;
+}
+}
+
+
+
+@media screen and (max-width:1060px) {
+    
+
+    
+#menu{
+    display:block;
+}
+
+}
+
+
+/* COLlapse end--------------------------------*/
+
+
+/* my footer */
+
+.my-contact{
+    position: relative;
+    margin: 0 auto;
+    background-color: ;
+    text-align: center;
+    padding-bottom: 5px;
+    background-color: #10181d;
+    margin: 0;
+}
+
+.designed-by{
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    opacity: .8;
+}
+
+.designed-by>a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* -------------------- */
 
 
 
@@ -449,7 +657,7 @@ general:div-heading
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 75%;
  
     
     
@@ -490,6 +698,21 @@ general:div-heading
 
 .nav-list{
     display: none;
+}
+.navbar{
+    align-items: flex-start;
+}
+
+.nav-logo{
+   margin: 0 auto;
+   margin-top: 15px;
+   
+}
+
+/* mid-div */
+
+.mid-div-heading{
+    width: 70%;
 }
 
 .team-title-cont{
@@ -604,7 +827,7 @@ general:div-heading
     padding-right:;
     
     align-items: center;
-    width: 50%;
+    width: 55%;
     
     
 
@@ -659,11 +882,20 @@ margin-bottom: 15px;
 }
 
 
+
+.team-title-cont h1{
+
+    width: 55%;
+}
+
+
 /* footer */
 
 .footer-bottom{
     flex-direction: column;
 }
+
+
 
 }
 
@@ -681,11 +913,17 @@ margin-bottom: 15px;
     /* heroform */
       
 .div-1-form{
-    width: 80%;
+    width: 75%;
     
     
 }
 
+.nav-logo{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 30%;
+    
+ }
 
 
     /* stat */
@@ -727,6 +965,12 @@ margin-bottom: 15px;
     width: 80%;
 }
 
+/* cp-nav */
+
+.change{
+    width: 60%;
+}
+
 }
 
 
@@ -745,7 +989,10 @@ headings:25px
 
 /* hero */
  
+.div-1-form{
 
+    width: 90%;
+}
 
 
 /* stat */
@@ -769,6 +1016,31 @@ headings:25px
  
 }
 
+/* mid div */
+
+
+.mid-div-heading{
+    width: 100%;
+    font-size: 17px;
+}
+
+.mid-div-content{
+    width: 100%;
+    font-size: 14px;
+}
+
+.mid-div-content{
+margin-bottom: 15px;
+font-size: 14px;
+width: 100%;
+}
+
+.mid-div-btns{
+
+
+    padding: 5px 10px;
+}
+
 
 /* team section */
 
@@ -778,6 +1050,19 @@ headings:25px
 .member-intro{
     font-size: 12px;
 }
+
+
+.team-title-cont h1{
+
+    width: 70%;
+}
+
+/* cp-nav */
+
+.change{
+    width: 100%;
+}
+
     
 }
 
